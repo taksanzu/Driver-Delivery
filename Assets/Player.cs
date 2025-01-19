@@ -18,10 +18,6 @@ public class Player : MonoBehaviour
 
 
         transform.Translate(forwardInput * speed * Time.deltaTime * Vector3.up);
-
-        if (forwardInput > 0 || forwardInput < 0)
-        {
-            transform.Rotate(-turnSpeed * turnInput * Time.deltaTime * Vector3.forward);
-        }
+        transform.Rotate(-turnSpeed * turnInput * Time.deltaTime * Vector3.forward);
     }
 }
