@@ -8,6 +8,7 @@ TagManager:
   - Customer
   - SpeedUp
   - SlowDown
+  - WorldObject
   layers:
   - Default
   - TransparentFX
